@@ -1,0 +1,30 @@
+
+.body{
+    font-family: sans-serif;
+}
+
+.flex-container{
+    max-width: 350px;
+    display: flex;
+    border: 2px solid black;
+    background: #FAEBD7;
+    border-radius: 5px;
+}
+
+.item{
+    margin: 5px;
+    text-align: center;
+    background: #B0C4DE;
+    color: #000080;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.s-1{
+    flex-shrink: 1;
+}
+
+.fg-1{
+    flex-grow: 1;
+}
+

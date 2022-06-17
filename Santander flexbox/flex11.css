@@ -1,0 +1,32 @@
+
+body{
+    font-family: sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 350px;
+    border: 2px solid black;
+    background: #ff8800;
+    border-radius: 5px;
+}
+
+.item{
+    margin: 5px;
+    text-align: center;
+    background: crimson;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.flex1{
+    flex: 1;
+    /*grow=1 shrink=1 basis=0*/
+}
+
+.flex2{
+    flex: 2;
+    /*grow=2 shrink=1 basis=0*/
+}

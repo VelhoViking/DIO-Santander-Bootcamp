@@ -1,0 +1,40 @@
+.flex-container{
+    display: flex;
+    max-width: 500px;
+    border: 2px solid black;
+    background: #9ACD32;
+    border-radius: 5px;
+}
+
+.item{
+    margin: 5px;
+    text-align: center;
+    background: #6B8E23;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 5px;
+
+}
+.bauto{
+    flex-basis: auto;
+}
+
+.fg-0{
+    flex-grow: 0;
+}
+
+.fg-1{
+    flex-grow: 1;
+}
+
+.fg-2{
+    flex-grow: 2;
+}
+
+.bzero{
+    flex-basis: 0;
+}
+
+.w100{
+    flex-basis:  100px;
+}
