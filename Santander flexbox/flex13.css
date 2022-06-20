@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 350px;
+    border: 2px solid black;
+    background: #ff8800;
+    border-radius: 5px;
+    
+}
+
+.item{
+    margin: 5px;
+    text-align: center;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.AC{
+    align-items: center;
+}
+
+.center{
+    align-self: center;
+}
+
+.start{
+    align-self: flex-start;
+}
+
+.end{ 
+    align-self: flex-end;
+}
+
+.baselaine{
+   align-self: baseline;
+}
+
+.stretch{
+    align-self: stretch;
+}
+
+.auto{
+    align-self: auto;
+}
+
+.dic{
+    flex-direction: column;
+}

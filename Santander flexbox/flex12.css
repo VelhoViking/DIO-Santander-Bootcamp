@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 350px;
+    border: 2px solid black;
+    background: #ff8800;
+    border-radius: 5px;
+}
+
+.item{
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    background: crimson;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.o1{
+    order: 1;
+}
+
+.o2{
+    order: 2;
+}
+
+.o3{
+    order: 3;
+}
+
+.direction{
+    flex-direction: column;
+}
